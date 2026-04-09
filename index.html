@@ -6,6 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
+
+ /* Hide ALL GitHub Pages injected navigation buttons */
+button[class*="menu"],
+button[class*="nav"],
+button[class*="toggle"],
+button[class*="icon"],
+button[aria-label=""],
+button[aria-hidden="true"],
+nav button {
+  display: none !important;
+  visibility: hidden !important;
+  position: absolute !important;
+  left: -9999px !important;
+}   
+    
     body {
       font-family: system-ui, Arial, sans-serif;
       line-height: 1.6;
