@@ -118,6 +118,35 @@ nav button {
       position: absolute !important;
       left: -9999px !important;
     }
+/* Hide ALL GitHub Pages theme wrappers that inject navigation */
+.site-nav,
+.page-header,
+.header-wrapper,
+.dropdown,
+details,
+summary,
+nav {
+  display: none !important;
+  visibility: hidden !important;
+  position: absolute !important;
+  left: -9999px !important;
+}
+
+/* Hide ALL GitHub Pages injected buttons */
+button[class*="menu"],
+button[class*="nav"],
+button[class*="toggle"],
+button[class*="icon"],
+button[aria-label=""],
+button[aria-hidden="true"],
+nav button {
+  display: none !important;
+  visibility: hidden !important;
+  position: absolute !important;
+  left: -9999px !important;
+}
+
+    
   </style>
 </head>
 
